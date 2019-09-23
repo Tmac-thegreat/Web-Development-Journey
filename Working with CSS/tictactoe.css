@@ -1,0 +1,38 @@
+/*p{
+	color: green;
+}*/
+table{
+	
+	/*height: 30px;
+	width: 30%;*/
+	/*padding: 10px;*/
+	margin: 0 auto;
+}
+
+td{
+	/*padding: 5px;*/
+	height: 100px;
+	width: 100px;
+	/*background: skyblue;*/
+}
+.middle {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}.sides {
+	border-bottom: 1px solid black;
+	/*border-right: 1px solid black;*/
+}
+/*tr{
+	border-bottom: 1px solid black;
+	
+}*/
+h1{
+	text-align: center;
+}
+#main{
+	/*border-top: 1px solid black;*/
+	border-bottom: 1px solid black;
+}
+#sub{
+  border-bottom: 1px solid black;	
+}
