@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Martel:400,600,700|Simonetta:400,400i&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/170e07e9dc.js" crossorigin="anonymous"></script>
+  <title>Sous-chef</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="brand">5000</a>
+    <ul>
+      <li><a href="#">Menu List</a></li>
+      <li><a href="#">Saved Menu</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="jumbo">
+    <div class="center-align">
+      <h1>sous-chef</h1>
+      <p>A recipe finder app that provides Ingredients and instructions for meal preparation, covering various categories of meals, from meat based diets to vegan.</p>
+    </div>
+  </section> 
+  
+  <div class="wrapper">
+    <section>
+      <form>
+        <fieldset>
+          <legend>Search by alphabet</legend>
+          <label for="name">Name</label>
+          <input type="text" id="alphabet" name="alphabet" placeholder="type an alphabet...">
+        </fieldset>
+        <fieldset>
+          <legend>Search by name</legend>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="type a name...">
+          <button type="submit" id="generate">Find</button>     
+
+          <!-- <div class="radio">
+            <p>preferred breakfast</p>
+          <label>
+            <input type="radio" name="breakfast-meal-type" value="beef">Beef Based
+          </label>
+          <label>
+            <input type="radio" name="breakfast-meal-type" value="chicken">Chicken
+          </label> <label>
+            <input type="radio" name="breakfast-meal-type" value="dessert">Dessert
+          </label> <label>
+            <input type="radio" name="breakfast-meal-type" value="lamb">Lamb
+          </label> <label>
+            <input type="radio" name="breakfast-meal-type" value="general">General Foods
+          </label> <label>
+            <input type="radio" name="breakfast-meal-type" value="pasta">Pasta
+          </label> <label>
+            <input type="radio" name="breakfast-meal-type" value="pork">Pork
+          </label> <label>
+            <input type="radio" name="breakfast-meal-type" value="seafoods">Seafoods
+          </label> <label>
+            <input type="radio" name="breakfast-meal-type" value="sides">Sides
+          </label> <label>
+            <input type="radio" name="breakfast-meal-type" value="starter">Starter
+          </label> <label>
+            <input type="radio" name="breakfast-meal-type" value="vegan">Vegan
+          </label> <label>
+            <input type="radio" name="breakfast-meal-type" value="vegetarian">Vegetarian
+          </label> <label>
+            <input type="radio" name="breakfast-meal-type" value="random">Random
+          </label>
+  
+          <p>preferred lunch</p>        
+          <label>
+            <input type="radio" name="lunch-meal-type" value="beef">Beef Based
+          </label>
+          <label>
+            <input type="radio" name="lunch-meal-type" value="chicken">Chicken
+          </label> <label>
+            <input type="radio" name="lunch-meal-type" value="dessert">Dessert
+          </label> <label>
+            <input type="radio" name="lunch-meal-type" value="lamb">Lamb
+          </label> <label>
+            <input type="radio" name="lunch-meal-type" value="general">General Foods
+          </label> <label>
+            <input type="radio" name="lunch-meal-type" value="pasta">Pasta
+          </label> <label>
+            <input type="radio" name="lunch-meal-type" value="pork">Pork
+          </label> <label>
+            <input type="radio" name="lunch-meal-type" value="seafoods">Seafoods
+          </label> <label>
+            <input type="radio" name="lunch-meal-type" value="sides">Sides
+          </label> <label>
+            <input type="radio" name="lunch-meal-type" value="starter">Starter
+          </label> <label>
+            <input type="radio" name="lunch-meal-type" value="vegan">Vegan
+          </label> <label>
+            <input type="radio" name="lunch-meal-type" value="vegetarian">Vegetarian
+          </label> <label>
+            <input type="radio" name="lunch-meal-type" value="random">Random
+          </label>
+  
+          <p>preferred dinner</p>
+          <label>
+            <input type="radio" name="dinner-meal-type" value="beef">Beef Based
+          </label>
+          <label>
+            <input type="radio" name="dinner-meal-type" value="chicken">Chicken
+          </label> <label>
+            <input type="radio" name="dinner-meal-type" value="dessert">Dessert
+          </label> <label>
+            <input type="radio" name="dinner-meal-type" value="lamb">Lamb
+          </label> <label>
+            <input type="radio" name="dinner-meal-type" value="general">General Foods
+          </label> <label>
+            <input type="radio" name="dinner-meal-type" value="pasta">Pasta
+          </label> <label>
+            <input type="radio" name="dinner-meal-type" value="pork">Pork
+          </label> <label>
+            <input type="radio" name="dinner-meal-type" value="seafoods">Seafoods
+          </label> <label>
+            <input type="radio" name="dinner-meal-type" value="sides">Sides
+          </label> <label>
+            <input type="radio" name="dinner-meal-type" value="starter">Starter
+          </label> <label>
+            <input type="radio" name="dinner-meal-type" value="vegan">Vegan
+          </label> <label>
+            <input type="radio" name="dinner-meal-type" value="vegetarian">Vegetarian
+          </label> <label>
+            <input type="radio" name="dinner-meal-type" value="random">Random
+          </label>
+          </div>
+           -->
+        </fieldset>
+  
+       
+      </form>
+    </section>
+    
+    <section>
+      <div class="result">
+        <!-- <div class="card">
+          <img src="" alt="">
+          <p>Meal Category</p>
+          <p>Meal Name</p>
+          <ul>
+            Ingredients
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+          </ul>
+          <p id="description"></p>
+        </div> -->
+
+        <div class="icons">
+          <a href="#"><i class="fas fa-save"></i></a>
+          <a href="#"><i class="fas fa-trash"></i></a>
+        </div>
+
+        <div class="result1">
+
+        </div>
+        
+      </div>
+    </section>
+  </div>
+  
+  <script src="meal.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
