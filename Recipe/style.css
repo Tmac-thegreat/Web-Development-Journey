@@ -6,7 +6,7 @@
   
 }
 body {
-  background: -webkit-linear-gradient(45deg, #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
+  background: -webkit-linear-gradient(45deg, #f9c667 0%,#f79621 100%);
 }
 nav {
 
@@ -29,7 +29,7 @@ nav li {
 nav ul li a {
   text-decoration: none;
   text-align: center;
-  color: #24811b;
+  color: #f79621
   
 }
 
@@ -46,11 +46,11 @@ nav ul li a {
 
 
 nav a:visited {  
-  color: #24811b;
+  color: #643d0c;
 }
 
 nav a:hover {
-  color: #042904;
+  color:#352006;
 }
 
 .jumbo {
@@ -151,11 +151,11 @@ button{
   padding: 0.5rem;
   display: inline-block;
   margin: 1rem auto;
-  color: #24811b;
+  color: #f79621;
 }
 button:hover {
-  color: #042904;
-  background-color: #24811b;
+  color: #3d2910;
+  background-color: #f79621;
 }
 
 .result {
@@ -200,7 +200,7 @@ flex-basis: 20%;
 a i{
   text-align: center;
   margin: 0 1rem;
-  color: #24811b;
+  color: #2c1c09;
 }
 
 .icons {

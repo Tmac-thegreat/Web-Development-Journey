@@ -17,4 +17,10 @@ class Meal{
     const wholeData = await wholeResponse.json()
     return wholeData;
   }
+  async getRandom () {
+    const randomResponse = await fetch('https://www.themealdb.com/api/json/v1/1/random.php');
+
+    const randomData = await randomResponse.json()
+    return randomData;
+  }
 }
